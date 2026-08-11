@@ -1,0 +1,11 @@
+{
+  "key.vampire-mod.bite": "Vampire Bite Attack",
+  "category.vampire-mod": "Vampire Mod",
+  "text.vampire-mod.blood_level": "Blood Level: %s/%s",
+  "text.vampire-mod.starving": "§c§lYOU ARE STARVING FOR BLOOD!",
+  "text.vampire-mod.vampire_level": "Vampire Level: %s",
+  "text.vampire-mod.minion_count": "Minions: %s",
+  "text.vampire-mod.transformation": "§c🧛 You have become a vampire!",
+  "text.vampire-mod.blood_drain": "§cYour blood is draining...",
+  "text.vampire-mod.bite_success": "§c🧛 You have drunk blood!"
+}
