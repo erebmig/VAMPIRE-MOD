@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "vampire-mod",
+  "version": "${version}",
+  "name": "Vampire Mod",
+  "description": "Minecraft Vampire Mode - Bite villagers, drink blood, transform into a powerful vampire!",
+  "authors": [
+    "erebmig"
+  ],
+  "contact": {
+    "sources": "https://github.com/erebmig/VAMPIRE-MOD",
+    "issues": "https://github.com/erebmig/VAMPIRE-MOD/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/vampire-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.erebmig.vampiremod.VampireMod"
+    ],
+    "client": [
+      "com.erebmig.vampiremod.VampireModClient"
+    ]
+  },
+  "mixins": [
+    "vampire-mod.mixins.json",
+    {
+      "config": "vampire-mod-client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
