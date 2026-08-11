@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.erebmig.vampiremod.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "VampireRenderMixin",
+    "HudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
