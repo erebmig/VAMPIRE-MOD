@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.erebmig.vampiremod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "VillagerBiteMixin",
+    "LivingEntityMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
